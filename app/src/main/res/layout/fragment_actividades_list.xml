@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/opciones"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/opcion"></Spinner>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora de Inicio"
+        android:textColor="#7ed4df" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtFin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Hora de Fin"
+        android:textColor="#7ed4df" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtdescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="166dp"
+        android:layout_gravity="top"
+        android:ems="10"
+        android:hint="Descripcion de la actividad"
+        android:inputType="textMultiLine"
+        android:textColor="#7ed4df" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_adduser"
+            android:icon="@drawable/ic_useradd"
+            android:title="Agregar usuario" />
+        <item
+            android:id="@+id/nav_consultar"
+            android:icon="@drawable/ic_consultar"
+            android:title="Consultar usuario" />
+        <item
+            android:id="@+id/nav_listar"
+            android:icon="@drawable/ic_listar"
+            android:title="Lista de usuarios" />
+        <item
+            android:id="@+id/nav_actividades_list"
+            android:icon="@drawable/ic_actividades"
+            android:title="Lista de actividades" />
+        <item
+            android:id="@+id/nav_lista_full"
+            android:icon="@drawable/ic_listafull"
+            android:title="Lista completa de usuarios" />
+        
+    </group>
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.listar.ListarFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lista de usuarios"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione una opcion" />
+    <Spinner
+        android:id="@+id/cmbOpcion"
+        style="@style/Widget.AppCompat.Spinner.DropDown.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:spinnerMode="dialog" />
+    <TextView
+        android:id="@+id/txtDocumento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Documento"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtProfesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profesion"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txturl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/Limg"
+        android:layout_width="378dp"
+        android:layout_height="168dp" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_adduser">
+
+    <fragment
+        android:id="@+id/nav_adduser"
+        android:name="com.example.appusuariosupe.ui.adduser.UserAddFragment"
+        android:label="Agregar usuario"
+        tools:layout="@layout/fragment_user_add" />
+
+    <fragment
+        android:id="@+id/nav_consultar"
+        android:name="com.example.appusuariosupe.ui.consult.ConsultFragment"
+        android:label="Consultar"
+        tools:layout="@layout/fragment_consult" />
+
+    <fragment
+        android:id="@+id/nav_actividades_list"
+        android:name="com.example.appusuariosupe.ui.activity.ActividadesFragment"
+        android:label="Lista actividades"
+        tools:layout="@layout/fragment_actividades_list" />
+    <fragment
+        android:id="@+id/nav_listar"
+        android:name="com.example.appusuariosupe.ui.listar.ListarFragment"
+        android:label="Listar"
+        tools:layout="@layout/fragment_listar" />
+    <fragment
+        android:id="@+id/nav_lista_full"
+        android:name="com.example.appusuariosupe.ui.activity.listaFull.ListaCompleta"
+        android:label="Lista completa"
+        tools:layout="@layout/fragment_lista_completa" />
+</navigation>

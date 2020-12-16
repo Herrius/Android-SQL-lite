@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.adduser.UserAddFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar usuarios"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Documento"
+            android:ems="10"
+            android:textColor="#7ed4df"
+            android:inputType="number"
+            android:id="@+id/txtDocumento"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombres"
+            android:ems="10"
+            android:textColor="#7ed4df"
+            android:inputType="textPersonName"
+            android:id="@+id/txtNombre"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Profesion"
+            android:ems="10"
+            android:textColor="#7ed4df"
+            android:inputType="textPersonName"
+            android:id="@+id/txtProfesion"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:ems="10"
+            android:textColor="#7ed4df"
+            android:inputType="textEmailAddress"
+            android:id="@+id/txtEmail"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="URL"
+            android:ems="10"
+            android:textColor="#7ed4df"
+            android:inputType="textUri"
+            android:id="@+id/txturl"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:id="@+id/btnGuardar"
+            />
+
+    </LinearLayout>
+</FrameLayout>
